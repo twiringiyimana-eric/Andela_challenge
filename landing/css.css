@@ -19,6 +19,7 @@ header {
 .logo img {
   width: 100px;
   height: 100px;
+  color: white;
 }
 
 nav ul {
@@ -77,7 +78,7 @@ h1{
 }
 .boxes h1{text-align: center;}
 .content .boxs{
-    background-color:rgb(143, 143, 153);
+    background-color:#6198f3;
     height:auto;
     width: 90%;
     justify-content:center;
@@ -88,6 +89,7 @@ margin-left: 2rem;
 border-radius: 10px;
 
 }
+.content .boxs p{text-align: left; margin-left: 1rem;}
 body{
   font-family: 'Times New Roman', Times, serif;
 }
@@ -111,8 +113,8 @@ button a{
 }
 .btn a{color: aquamarine;}
 button a:hover{background: goldenrod;}
-.content h1{
-  text-align: left;
+.content h1,p{
+  text-align: center;
 }
 @media(max-width:1200px){
 
@@ -133,6 +135,9 @@ button a:hover{background: goldenrod;}
       width:30px;
     }
   }
-  img a:hover{transform-box: stroke-box;}
-  h1 span{color:yellow}
-   .paragraph p{color:white}
+        img a:hover{transform-box: stroke-box;}
+        h1 {color: white;}
+          .paragraph p{color:white}
+          .content p{color:black;}
+
+          .btn1{margin-left:60%;margin-bottom:1rem ;}
