@@ -66,7 +66,7 @@ li a:hover{color:#333;font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuc
 
 /* Section 4: Footer */
 footer {
-  background-color: #3f3c3c;
+  background-color:#1F2937;
   color: #fff;
   padding: 20px;
   text-align: center;
@@ -86,6 +86,7 @@ h1{
 
 margin-left: 2rem;
 border-radius: 10px;
+
 }
 body{
   font-family: 'Times New Roman', Times, serif;
@@ -96,14 +97,42 @@ button{
   margin-top: 1rem;
   border-radius:5px;
   background:grey;
+
+}
+button a{
+  color:aqua;
 }
 .btn{
   width: 100px;
   height: 30px;
   border-radius: 5px;
+  color: yellow;
   background:grey;
 }
+.btn a{color: aquamarine;}
 button a:hover{background: goldenrod;}
 .content h1{
   text-align: left;
 }
+@media(max-width:1200px){
+
+  html{
+      font-size: 55%;
+  }
+  .content{
+      padding: 1rem 4rem;
+  }
+  .boxes .box img {
+    padding: 1rem 4rem;
+
+  }
+}
+
+@media (max-width:400px){
+ .boxes {
+      width:30px;
+    }
+  }
+  img a:hover{transform-box: stroke-box;}
+  h1 span{color:yellow}
+   .paragraph p{color:white}
