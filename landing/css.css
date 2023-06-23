@@ -5,7 +5,7 @@ body{
   margin: 0;
   padding: 0;
   font-family: 'Times New Roman', Times, serif;
-   background-color: darkgray;
+   background-color: white;
 }
 
 /* Section 1: Logo and Menu */
@@ -52,8 +52,9 @@ nav a {
 .box {
   width: 200px;
   height: 200px;
-  border:0px solid black
+  
 }
+.box img{border-radius:1rem;}
 
 /* Section 3: Boxes */
 .boxes {
@@ -73,15 +74,14 @@ footer {
   text-align: center;
 }
 a {text-decoration: none;}
-h1{
-    text-align: center;
-}
+
 .boxes h1{text-align: center;}
 .content .boxs{
     background-color:#6198f3;
     height:auto;
-    width: 90%;
+    width: 95%;
     justify-content:center;
+    margin-left:2rem;
 }
 .boxes .box{
 
@@ -89,7 +89,7 @@ margin-left: 2rem;
 border-radius: 10px;
 
 }
-.content .boxs p{text-align: left; margin-left: 1rem;}
+.content .boxs p{text-align: left; margin-left: 2rem;}
 body{
   font-family: 'Times New Roman', Times, serif;
 }
@@ -98,24 +98,25 @@ button{
   height: 30px;
   margin-top: 1rem;
   border-radius:5px;
-  background:grey;
-
+  background:white;
+  margin-left:40rem;
+  
 }
 button a{
-  color:aqua;
+  color:black;
 }
 .btn{
   width: 100px;
   height: 30px;
   border-radius: 5px;
   color: yellow;
-  background:grey;
+  background:#6198f3;
+  margin-left: 4rem;
+  border: 2px solid white;
 }
-.btn a{color: aquamarine;}
+.btn a{color:white;}
 button a:hover{background: goldenrod;}
-.content h1,p{
-  text-align: center;
-}
+
 @media(max-width:1200px){
 
   html{
@@ -140,4 +141,4 @@ button a:hover{background: goldenrod;}
           .paragraph p{color:white}
           .content p{color:black;}
 
-          .btn1{margin-left:60%;margin-bottom:1rem ;}
+         
